@@ -12,7 +12,7 @@ In residual learning, we let the stacked layers directly fit the required underl
 Shortcut connections that skip one or more layers are also used to implement the formulation of $F(x) + x$. In this implementation, the shortcut connections carry out identity mapping, and their results are added to those of the stacked layers.
 
 ## Implementation
-[Open in Colab](https://colab.research.google.com/github/shreyjasuja/cifar_10_custom_resnet/blob/main/dl_mini_project.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyjasuja/cifar_10_custom_resnet/blob/main/dl_mini_project.ipynb)
 
 The implementation is based on the PyTorch deep learning framework. The [Custom Resnet](dl_mini_project.ipynb) jupyter file contains the ResNet implementation, which can be used to train and evaluate deep neural networks for image recognition tasks.
 Model weights are available [here](https://bit.ly/dl-7123)
