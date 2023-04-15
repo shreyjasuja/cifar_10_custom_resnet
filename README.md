@@ -10,6 +10,7 @@ Residual Networks (ResNets) were developed to address the vanishing gradient pro
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyjasuja/cifar_10_custom_resnet/blob/main/dl_mini_project.ipynb)
 
 The implementation is based on the PyTorch deep learning framework. The [Custom Resnet](dl_mini_project.ipynb) jupyter file contains the ResNet implementation, which can be used to train and evaluate deep neural networks for image recognition tasks.
+<br />
 Model weights are available [here](https://bit.ly/dl-7123)
 
 ## Results
