@@ -3,10 +3,10 @@
 
 This is an implementation of residual learning and shortcut connections for deep neural networks, based on the paper "Deep Residual Learning for Image Recognition" by Kaiming He et al..
 
-'''
+```
 Accuracy: 95.16%
 Parameters: 4,964,266
-'''
+```
 
 ## Introduction
 Residual Networks (ResNets) were developed to address the vanishing gradient problem by introducing residual blocks, and subsequent research by Hao Li et al. (2018) has shown that skip connections make the loss landscape smoother. ResNets enable training of very deep networks, which was not possible before. In this study, we explore custom ResNet architectures for classifying the CIFAR-10 image dataset. CIFAR-10 is a small dataset with 10 classes, making it a suitable testbed for evaluating design choices. We performed approximately 15 experiments, varying the number of layers, filters, dropout rates, and learning rate schedulers.
